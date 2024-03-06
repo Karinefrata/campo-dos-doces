@@ -334,7 +334,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #e77ffa;
   bottom: 0;
   left: 0;
 }
@@ -349,7 +349,7 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #173b6c;
+  color: #f79eff;
 }
 
 .about .content ul {
@@ -370,7 +370,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #f990ff;
   line-height: 0;
 }
 
@@ -393,7 +393,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #e28ef3;
   float: left;
   line-height: 0;
 }
