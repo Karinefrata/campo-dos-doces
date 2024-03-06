@@ -4,12 +4,13 @@
 # General
 --------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Yrsa:ital,wght@0,300..700;1,300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 
 
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script";
   color: #272829;
 }
 
@@ -29,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Dancing Script";
 }
 
 /*--------------------------------------------------------------
@@ -86,7 +87,7 @@ h6 {
   margin: 15px auto;
   display: block;
   width: 120px;
-  border: 8px solid #2c2f3f;
+  border: 8px solid #f7afff;
 }
 
 #header .profile h1 {
@@ -109,7 +110,7 @@ h6 {
   font-size: 18px;
   display: inline-block;
   background: #212431;
-  color: #fff;
+  color: rgb(0, 0, 0);
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -121,8 +122,8 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
-  color: #fff;
+  background: #ff8af7;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -175,7 +176,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #000000;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -186,7 +187,7 @@ h6 {
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
-  color: #6f7180;
+  color: #000000;
 }
 
 .nav-menu a:hover,
@@ -194,14 +195,14 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(251, 163, 252);
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #f694f9;
 }
 
 /* Mobile Navigation */
@@ -240,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg2.jpg") top center;
+  background: url("../img/brigadeiros.bg.jpg") top center;
   background-size: cover;
 }
 
@@ -280,7 +281,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #000000;
 }
 
 @media (min-width: 1024px) {
