@@ -724,7 +724,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #000000;
 }
 
 .services .title {
@@ -783,7 +783,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #c3e8fa;
+  color: #faa2ff;
   font-size: 26px;
 }
 
@@ -833,11 +833,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #faa2ff;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #faa2ff;
 }
 
 /*--------------------------------------------------------------
@@ -849,18 +849,18 @@ section {
 
 .contact .info {
   padding: 30px;
-  background: #fff;
+  background: rgb(252, 196, 250);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #ffa4fc;
   float: left;
   width: 44px;
   height: 44px;
-  background: #dff3fc;
+  background: #000000;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -880,7 +880,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #173b6c;
+  color: #000000;
 }
 
 .contact .info .email p {
@@ -907,21 +907,21 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #ffffff;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #d8de6c;
   color: #fff;
 }
 
 .contact .php-email-form {
   width: 100%;
   padding: 30px;
-  background: #fff;
+  background: #fffdbb;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -1002,7 +1002,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #fa97f7;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1011,7 +1011,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #37b3ed;
+  background: #000000;
 }
 
 @keyframes animate-loading {
